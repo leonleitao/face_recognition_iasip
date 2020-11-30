@@ -79,4 +79,4 @@ if __name__=='__main__':
     ias_names=list(encoded_faces.keys())
     ias_faces=list(encoded_faces.values())
     vid= cv2.VideoCapture('videos/video_1.mp4')
-    label_faces(vid,show=False,output=True,output_name='output_1.mp4')
+    label_faces(vid,show=True,output=False,output_name='output_1.mp4')
